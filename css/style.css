@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;   
 }
 
 /* UTILITIES */
@@ -15,3 +16,90 @@ body{
     margin: auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-inline li{
+    display: inline-block;
+    list-style: none;
+}
+
+.w50{
+    width: 50%;
+}
+
+.float-left{
+    float: left;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    margin-right: 10px;
+}
+
+/* buttons */
+.btn{
+    min-width: 100px;
+    padding: 15px 10px;
+    text-align: center;
+    line-height: 1;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+}
+
+.btn > a{
+    color: #fe775a;
+}
+
+.orange{
+    background-color: #fe775a;
+}
+
+.orange > a{
+    color: white;
+}
+
+/* HEADER */
+header{
+    height: 160px;
+    line-height: 80px;
+}
+
+.top-nav{
+    background-color:#f4f9fd;
+}
+
+.top-nav, .bottom-nav{
+    height: 50%;
+}
+
+.top-nav .left-nav span:last-child{
+    padding: 10px;
+    margin-left: 10px;              /* sistemare border */
+    border-left: 2px solid gray;
+}
+
+.right-nav ul{
+    text-align: right;
+}
+
+.bottom-nav .container .float-left img{
+    vertical-align: middle;
+}
+
+/* MAIN */
+/* jumbotron */
+.jumbotron{
+    background-color: #fff4ef;
+}
+
+.jumbotron .container{
+    background-image: url(../img/);
+}
