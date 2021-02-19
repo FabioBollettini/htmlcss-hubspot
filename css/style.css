@@ -10,6 +10,19 @@ body{
     font-weight: 500;   
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 700;
+}
+
+h1{
+    font-size: 50px;
+}
+
 /* UTILITIES */
 .container{
     width: 1200px;
@@ -97,9 +110,12 @@ header{
 /* MAIN */
 /* jumbotron */
 .jumbotron{
-    background-color: #fff4ef;
+    height: 700px;
+    background-image: url(../img/jumbotron.png);
+    background-size: 100% 115%;
+    background-position:right top;
+    background-repeat: no-repeat;
 }
 
 .jumbotron .container{
-    background-image: url(../img/);
 }
