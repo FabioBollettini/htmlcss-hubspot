@@ -25,6 +25,10 @@ h1{
     margin-bottom: 20px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 p{
     line-height: 30px;
 }
@@ -43,7 +47,6 @@ p{
 
 .menu-inline li{
     display: inline-block;
-    list-style: none;
 }
 
 .w50{
@@ -61,6 +64,15 @@ a{
 
 li{
     margin-right: 10px;
+    list-style: none;
+}
+
+.ta-center{
+    text-align: center;
+}
+
+.fas.fa-check-circle{
+    color: #fe775a;  
 }
 
 /* buttons */
@@ -120,7 +132,7 @@ header{
 }
 
 /* MAIN */
-/* jumbotron */
+/* jumbotron (first section) */
 .jumbotron{
     height: 800px;
     position: relative;
@@ -136,6 +148,7 @@ header{
     top: 100px;
 }
 
+/* green section divider */
 .green-divider{
     height: 100px;
     width: 100%;
@@ -144,4 +157,93 @@ header{
     bottom: 0%;
     border: solid #33475b;
     border-width: 5px 0;
+}
+
+/* second section */
+/* powerful alone, better together */
+.second-section{
+    background-color: #f4f9fd;
+}
+
+.second-section .cubo{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.second-section p{
+    margin: 20px 50px;
+}
+
+/* features */
+.feature{
+    height: 350px;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px grey;  /* sistemare */
+}
+
+.feature img{
+    height: 100px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.feature hr{
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* first feature */
+.feature .feature-img{
+    width: 30%;
+}
+
+.feature .btn.orange.big{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.feature .feature-text{
+    width: 60%;
+    margin-top: 30px;
+}
+
+.feature .feature-text *{
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.feature .feature-text.float-left h4:after{
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid black;
+    width: 24rem;
+    margin: 0 2rem;
+    transform: translateY(-0.3rem);
+}
+
+/* float container */
+/* second, third, fourth features */
+.feature.float-left{
+    height: 700px;
+    width: 30%;
+}
+
+.float-container .feature.float-left:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.float-container li{
+    margin-top: 10px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.float-container p{
+    height: 200px;
 }
