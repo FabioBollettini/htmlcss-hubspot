@@ -162,6 +162,7 @@ header{
 /* second section */
 /* powerful alone, better together */
 .second-section{
+    padding-bottom: 50px;
     background-color: #f4f9fd;
 }
 
@@ -186,6 +187,7 @@ header{
 .feature img{
     height: 100px;
     margin: 30px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -240,7 +242,7 @@ header{
 
 .float-container li{
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 80px;
     text-align: left;
 }
 
