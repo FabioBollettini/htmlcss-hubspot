@@ -85,6 +85,12 @@ li{
     color: white;
 }
 
+.big{
+    max-width: 200px;
+    margin: 30px 0;
+    padding: 25px;
+}
+
 /* HEADER */
 header{
     height: 160px;
@@ -116,10 +122,11 @@ header{
 /* MAIN */
 /* jumbotron */
 .jumbotron{
-    height: 700px;
+    height: 800px;
+    position: relative;
     background-color: #fef4ee;
     background-image: url(../img/jumbotron.png);
-    background-size: 90% 115%;
+    background-size: 90% 100%;
     background-position:right top;
     background-repeat: no-repeat;
 }
@@ -127,4 +134,14 @@ header{
 .jumbotron .jumbotron-text{
     position: relative;
     top: 100px;
+}
+
+.green-divider{
+    height: 100px;
+    width: 100%;
+    background-color: #afebe4;
+    position: absolute;
+    bottom: 0%;
+    border: solid #33475b;
+    border-width: 5px 0;
 }
