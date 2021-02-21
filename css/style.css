@@ -128,8 +128,8 @@ header{
 
 .top-nav .left-nav span:last-child{
     padding: 10px;
-    margin-left: 10px;              /* sistemare border */
-    border-left: 2px solid gray;
+    margin-left: 10px;
+    border-left: 1px solid gray;
 }
 
 .right-nav ul{
@@ -190,7 +190,7 @@ header{
     margin-top: 40px;
     background: white;
     border-radius: 5px;
-    box-shadow: 1px 5px 5px grey;  /* sistemare */
+    box-shadow: 1px 1px 10px grey;
 }
 
 .feature img{
