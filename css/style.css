@@ -29,6 +29,10 @@ h2{
     font-size: 30px;
 }
 
+.small-text{
+    font-size: 12px;
+}
+
 p{
     line-height: 30px;
 }
@@ -51,6 +55,11 @@ p{
 
 .w50{
     width: 50%;
+}
+
+
+.list-container{
+    width: 25%;
 }
 
 .float-left{
@@ -252,17 +261,13 @@ header{
 
 /* THIRD SECTION */
 .third-section{
-    height: 600px;
+    padding-bottom: 40px;
     color: white;
     background-image: linear-gradient(to right, #00a8b9, #03e6d3);
 }
 
 .third-section .container > h2{
     padding: 50px 0;
-}
-
-.list-container{
-    width: 25%;
 }
 
 .top-row > .list-container{
@@ -280,7 +285,7 @@ header{
     border-right: none;
 }
 
-.top-row .list-container li:last-child{
+.list-container li:last-child{
     padding-bottom: 20px;
 }
 
@@ -298,7 +303,6 @@ header{
 
 /* FOURTH SECTION */
 .fourth-section{
-    height: 500px;
     background-color: #ffffff;
 }
 
@@ -318,7 +322,6 @@ header{
 .fourth-section .container div:nth-child(2) img{
     width: 150px;
     margin: 10px;
-    /* vertical-align: middle; */
 }
 
 .fourth-section .container div:nth-child(3) *{
@@ -330,4 +333,57 @@ header{
     height: 350px;
     position: relative;
     left: 50%;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: #32495b;
+}
+
+footer li .btn a{
+    color: #32495b;
+}
+
+footer li:first-child{
+    margin: 30px 0;
+}
+
+footer li{
+    margin-top:20px;
+}
+
+footer li .btn{
+    width: 70%;
+    border: white;
+    background-color: white;
+    padding: 10px;
+}
+
+footer .menu-inline li{
+    margin-top: 0;
+}
+
+footer .menu-inline li .fab{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.languages{
+    text-align: center;
+}
+
+.languages li{
+    margin: 0 10px;
+}
+
+.logo-footer{
+    width:30%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.credits{
+    display: inline-block;
+    text-align: right;
 }
