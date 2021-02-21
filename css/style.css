@@ -132,7 +132,7 @@ header{
 }
 
 /* MAIN */
-/* jumbotron (first section) */
+/* JUMBOTRON (first section) */
 .jumbotron{
     height: 800px;
     position: relative;
@@ -159,7 +159,7 @@ header{
     border-width: 5px 0;
 }
 
-/* second section */
+/* SECOND SECTION */
 /* powerful alone, better together */
 .second-section{
     padding-bottom: 50px;
@@ -248,4 +248,50 @@ header{
 
 .float-container p{
     height: 200px;
+}
+
+/* THIRD SECTION */
+.third-section{
+    height: 600px;
+    color: white;
+    background-image: linear-gradient(to right, #00a8b9, #03e6d3);
+}
+
+.third-section .container > h2{
+    padding: 50px 0;
+}
+
+.list-container{
+    width: 25%;
+}
+
+.top-row > .list-container{
+    margin-top: 40px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.bottom-row > .list-container{
+    border-right: 1px solid;
+}
+
+.top-row > .list-container:last-child,
+.bottom-row > .list-container:last-child{
+    border-right: none;
+}
+
+.top-row .list-container li:last-child{
+    padding-bottom: 20px;
+}
+
+.bottom-row .list-container li:first-child{
+    padding-top: 20px;
+}
+
+.third-section .container li:nth-child(2){
+    margin: 20px 0;
+}
+
+.list-container img{
+    height: 30px;
 }
