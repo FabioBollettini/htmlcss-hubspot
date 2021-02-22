@@ -377,6 +377,10 @@ footer .menu-inline li .fab{
     margin: 0 10px;
 }
 
+.languages li a{
+    color: white;
+}
+
 .logo-footer{
     width:30%;
     display: inline-block;
