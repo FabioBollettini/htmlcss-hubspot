@@ -53,13 +53,20 @@ p{
     display: inline-block;
 }
 
+.w25{
+    width: 25%;
+}
+
+.w30{
+    width: 30%;
+}
+
 .w50{
     width: 50%;
 }
 
-
-.list-container{
-    width: 25%;
+.p-bottom{
+    padding-bottom: 50px;
 }
 
 .float-left{
@@ -171,7 +178,6 @@ header{
 /* SECOND SECTION */
 /* powerful alone, better together */
 .second-section{
-    padding-bottom: 50px;
     background-color: #f4f9fd;
 }
 
@@ -209,10 +215,6 @@ header{
 }
 
 /* first feature */
-.feature .feature-img{
-    width: 30%;
-}
-
 .feature .btn.orange.big{
     margin: auto;
     margin-top: 20px;
@@ -241,7 +243,6 @@ header{
 /* second, third, fourth features */
 .feature.float-left{
     height: 700px;
-    width: 30%;
 }
 
 .float-container .feature.float-left:nth-child(2){
@@ -261,7 +262,6 @@ header{
 
 /* THIRD SECTION */
 .third-section{
-    padding-bottom: 40px;
     color: white;
     background-image: linear-gradient(to right, #00a8b9, #03e6d3);
 }
@@ -270,26 +270,26 @@ header{
     padding: 50px 0;
 }
 
-.top-row > .list-container{
+.top-row > .w25{
     margin-top: 40px;
     border-right: 1px solid;
     border-bottom: 1px solid;
 }
 
-.bottom-row > .list-container{
+.bottom-row > .w25{
     border-right: 1px solid;
 }
 
-.top-row > .list-container:last-child,
-.bottom-row > .list-container:last-child{
+.top-row > .w25:last-child,
+.bottom-row > .w25:last-child{
     border-right: none;
 }
 
-.list-container li:last-child{
+.w25 li:last-child{
     padding-bottom: 20px;
 }
 
-.bottom-row .list-container li:first-child{
+.bottom-row .w25 li:first-child{
     padding-top: 20px;
 }
 
@@ -297,17 +297,13 @@ header{
     margin: 20px 0;
 }
 
-.list-container img{
+.w25 img{
     height: 30px;
 }
 
 /* FOURTH SECTION */
 .fourth-section{
     background-color: #ffffff;
-}
-
-.fourth-section .container .ta-center.float-left{
-    width: 30%;
 }
 
 .fourth-section .container .ta-center.float-left:not(strong){
@@ -322,6 +318,7 @@ header{
 .fourth-section .container div:nth-child(2) img{
     width: 150px;
     margin: 10px;
+    /* vertical-align: middle; */
 }
 
 .fourth-section .container div:nth-child(3) *{
@@ -353,6 +350,10 @@ footer li{
     margin-top:20px;
 }
 
+footer li a{
+    color: white;
+}
+
 footer li .btn{
     width: 70%;
     border: white;
@@ -368,7 +369,7 @@ footer .menu-inline li .fab{
     margin-right: 10px;
     font-size: 20px;
 }
-
+/* languages */
 .languages{
     text-align: center;
 }
@@ -377,17 +378,14 @@ footer .menu-inline li .fab{
     margin: 0 10px;
 }
 
-.languages li a{
-    color: white;
-}
-
+/* logo and credits */
 .logo-footer{
-    width:30%;
     display: inline-block;
     margin-top: 20px;
 }
 
 .credits{
+    line-height: 50px;
     display: inline-block;
     text-align: right;
 }
