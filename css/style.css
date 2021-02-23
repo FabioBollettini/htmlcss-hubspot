@@ -310,12 +310,12 @@ header{
     padding: 70px;
 }
 
-.fourth-section .container div:nth-child(2){
+.fourth-section .container .loghi{
     width: 60%;
     margin: 80px 50px;
 }
 
-.fourth-section .container div:nth-child(2) img{
+.fourth-section .container .loghi img{
     width: 150px;
     margin: 10px;
     /* vertical-align: middle; */
