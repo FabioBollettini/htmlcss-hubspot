@@ -22,8 +22,22 @@
                 <!-- left nav -->
                 <div class="left-nav float-left w50">
                     <i class="fas fa-globe-europe"></i>
-                    <span>English <i class="fas fa-chevron-down"></i></span>
-                    <span>Contact Us</span>
+                    <div class="dropdown">
+                        <a href="#">English <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">English</a>
+                            <a href="#">Italian</a>
+                            <a href="#">German</a>
+                            <a href="#">Français</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="#">Contact Us</a>
+                        <div class="dropdown-content">
+                            <a href="#">Email</a>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- right nav -->
@@ -59,36 +73,61 @@
                 <!-- right-nav -->
                 <div class="float-left w50">
                     <ul class="menu-inline">
-                        <li>
-                            <a href="#">Software</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-down"></i>
-                        </li>
+                        <div class="dropdown">
+                            <li>
+                                <a href="#">Software</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Software</a>
+                                    <a href="#">Software</a>
+                                    <a href="#">Software</a>
+                                </div>
+                                <i class="fas fa-chevron-down"></i>
+                            </li>
+                        </div>
                         <li>
                             <a href="#">Pricing</a>
                         </li>
-                        <li>
-                            <a href="#">Resources</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-down"></i>
-                        </li>
-                        <li>
-                            <a href="#">Partners</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-down"></i>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-chevron-down"></i>
-                        </li>
+                        <div class="dropdown">
+                            <li>
+                                <a href="#">Resources
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="#">Resources</a>
+                                    <a href="#">Resources</a>
+                                    <a href="#">Resources</a>
+                                    <a href="#">Resources</a>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="dropdown">
+                            <li>
+                                <a href="#">Partners
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="#">Partner</a>
+                                    <a href="#">Partner</a>
+                                    <a href="#">Partner</a>
+                                    <a href="#">Partner</a>
+                                    <a href="#">Partner</a>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="dropdown">
+                            <li>
+                                <a href="#">About
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="#">About</a>
+                                    <a href="#">About</a>
+                                </div>
+                            </li>
+                        </div>
                     </ul>
                 </div>
-                <!-- after -->
+                    <!-- after -->
             </div>
         </nav>
     </header>
@@ -553,6 +592,13 @@
                     <li>Legal Stuff</li>
                     <li>Privacy Policy</li>
                 </ul>
+            </div>
+        </div>
+
+        <div class="chat-box">
+            <a href="#"><i class="fas fa-comment-alt"></i></a>
+            <div class="chat">
+                Want to chat with HubSpot? I'm here to help you find your way.
             </div>
         </div>
     </footer>

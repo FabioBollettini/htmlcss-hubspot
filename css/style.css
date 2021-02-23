@@ -119,6 +119,41 @@ li{
     padding: 25px;
 }
 
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    line-height: 1;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown a:hover{
+    color: #fe775a;
+}
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* HEADER */
 header{
     height: 160px;
@@ -388,4 +423,35 @@ footer .menu-inline li .fab{
     line-height: 50px;
     display: inline-block;
     text-align: right;
+}
+
+.chat-box i{
+    font-size: 50px;
+    padding: 30px;
+    color: white;
+    border: 1px solid #425b76;
+    background-color: #425b76;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.chat{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    color: black;
+    border: 1px solid fef4ee;
+    background-color: #fef4ee;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 15%;
+    right: 12%;
+    display: none;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.chat-box:hover .chat{
+    display: block;
 }
