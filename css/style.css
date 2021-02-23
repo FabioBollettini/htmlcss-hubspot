@@ -310,23 +310,23 @@ header{
     padding: 70px;
 }
 
-.fourth-section .container .loghi{
+.fourth-section .container .clearfix .loghi{
     width: 60%;
     margin: 80px 50px;
 }
 
-.fourth-section .container .loghi img{
+.fourth-section .container .clearfix .loghi img{
     width: 150px;
     margin: 10px;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
-.fourth-section .container div:nth-child(3) *{
+.fourth-section .container .advertising *{
     margin: 40px 0;
     padding-right: 100px;
 }
 
-.fourth-section .container div:last-child img{
+.fourth-section .container .img-woman img{
     height: 350px;
     position: relative;
     left: 50%;
